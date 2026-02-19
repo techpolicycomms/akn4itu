@@ -18,7 +18,7 @@ Developed as a proof-of-concept for the ITU Innovation Hub to explore automated 
 8. [Process Report](#process-report)
 9. [Challenges and Limitations of Working with PDF](#challenges-and-limitations-of-working-with-pdf)
 10. [Known Limitations of the Current Converter](#known-limitations-of-the-current-converter)
-11. [Future Improvements](#future-improvements)
+11. [Future Improvements](#future-improvements) (4-phase roadmap)
 12. [References](#references)
 13. [Project Files](#project-files)
 
@@ -28,7 +28,7 @@ Developed as a proof-of-concept for the ITU Innovation Hub to explore automated 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/AJamie27/akn4itu.git
+git clone https://github.com/techpolicycomms/akn4itu.git
 cd akn4itu
 
 # 2. Install dependencies
@@ -387,13 +387,15 @@ For future iterations, **starting from a structured source format** (e.g., OOXML
 
 ## Future Improvements
 
+### Phase 1: Converter Enhancements (Single Document)
+
 1. **DOCX/OOXML input**: Add a parser for Word documents from the ITU gDoc system, which preserves structural information lost in PDF.
 
 2. **Cross-reference detection**: Use regex to identify references to other ITU documents (resolutions, recommendations, articles of the Constitution/Convention) and tag them with `<ref href="...">`.
 
 3. **Footnote extraction**: Use PyMuPDF's position-based extraction to separate footnotes from body text based on their Y-coordinate on the page.
 
-4. **Table extraction**: Use `pdfplumber` (already in dependencies) for table detection and convert to AKN `<table>` elements.
+4. **Table extraction**: Use `pdfplumber` for table detection and convert to AKN `<table>` elements.
 
 5. **Semantic annotation**: Tag named entities (Member States, organizations, dates, legal references) with appropriate AKN inline elements (`<organization>`, `<date>`, `<ref>`).
 
@@ -402,6 +404,76 @@ For future iterations, **starting from a structured source format** (e.g., OOXML
 7. **Conference parameterization**: Make the converter configurable for any ITU conference (PP, WTSA, WCIT, WRC, WTDC) via a configuration file.
 
 8. **Multilingual support**: Extend to process the French, Spanish, Arabic, Chinese, and Russian editions of the Final Acts.
+
+### Phase 2: Multi-Conference Corpus and Version Chains
+
+The real institutional value lies in connecting documents across conferences so that **mandate evolution can be tracked over time**. AKN4UN provides the infrastructure for this through FRBR versioning, lifecycle events, and modification tracking.
+
+9. **Multi-conference processing**: Process Final Acts from multiple Plenipotentiary Conferences (PP-14 Busan, PP-18 Dubai, PP-22 Bucharest) to build a version chain spanning decades. Each resolution (e.g., Resolution 2) shares the same FRBR Work IRI across all conferences, with each revision as a distinct Expression:
+
+   ```
+   Work:       /akn/un/statement/deliberation/itu-pp/1994-10-14/res-2
+   Expression: /akn/un/statement/deliberation/itu-pp/1994-10-14/res-2/eng@2014-11-07  (PP-14)
+   Expression: /akn/un/statement/deliberation/itu-pp/1994-10-14/res-2/eng@2018-11-15  (PP-18)
+   Expression: /akn/un/statement/deliberation/itu-pp/1994-10-14/res-2/eng@2022-10-14  (PP-22)
+   ```
+
+10. **Lifecycle event tracking**: Record every conference event that modified each resolution in `<lifecycle>` metadata, linking revisions to the specific conference (location, date, session) that adopted them:
+
+    ```xml
+    <lifecycle source="#itu">
+      <eventRef eId="evt_1" date="1994-10-14" type="generation"
+                source="#pp-kyoto-1994"/>
+      <eventRef eId="evt_2" date="2018-11-15" type="amendment"
+                source="#pp-dubai-2018"/>
+      <eventRef eId="evt_3" date="2022-10-14" type="amendment"
+                source="#pp-bucharest-2022"/>
+    </lifecycle>
+    ```
+
+### Phase 3: Mandate Tracking and Modification Analysis
+
+11. **Active/passive modification recording**: When a conference revises a resolution, record the change bidirectionally:
+    - In the **Final Acts** (active): which operative paragraph ordered the change and which resolution was affected.
+    - In the **resolution itself** (passive): which conference modified it, which paragraph changed, and what the old/new text was.
+
+    ```xml
+    <!-- In Resolution 2 (passive — the document that was changed) -->
+    <passiveModifications>
+      <textualMod type="substitution" eId="mod_1">
+        <source href="/akn/un/.../pp-18-final-acts"/>
+        <destination href="#para_3"/>
+        <old href="#para_3_v2014"/>
+        <new href="#para_3_v2018"/>
+      </textualMod>
+    </passiveModifications>
+    ```
+
+12. **Diff-based change detection**: Automatically compare the same resolution across two conference editions to detect which paragraphs were added, modified, or deleted, and generate `<textualMod>` entries accordingly.
+
+13. **ITU event and actor ontology**: Build a shared reference registry of ITU events (PP, WTSA, WRC, WTDC, Council sessions) and actors (Member States, Sector Members, Secretary-General, Directors of Bureaux) that all documents reference via `<TLCEvent>` and `<TLCOrganization>`:
+
+    ```xml
+    <references>
+      <TLCEvent eId="pp-dubai-2018"
+                href="/ontology/events/itu/pp-2018"
+                showAs="Plenipotentiary Conference (Dubai, 2018)"/>
+      <TLCOrganization eId="itu-sg"
+                href="/ontology/organizations/itu/secretary-general"
+                showAs="Secretary-General of ITU"/>
+    </references>
+    ```
+
+### Phase 4: Query and Visualization
+
+14. **Mandate tracking queries**: With the interconnected corpus, support queries such as:
+    - "What is the full revision history of Resolution 130 on cybersecurity?"
+    - "What did PP-18 change in Resolution 70 on gender mainstreaming?"
+    - "Which conferences have modified a specific paragraph?"
+    - "What mandates were given to the Secretary-General across all PP conferences?"
+    - "Which resolutions cross-reference the Strategic Plan (Resolution 71)?"
+
+15. **Timeline visualization**: A front-end interface that lets users browse the mandate timeline for any resolution, see what changed between conferences, and follow cross-references visually across the ITU document ecosystem.
 
 ---
 
