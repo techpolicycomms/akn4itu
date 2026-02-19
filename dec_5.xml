@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <statement name="decision" xml:lang="en">
+    <meta>
+      <identification source="#itu">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/itu-pp/2018-11-15/dec-5/!main"/>
+          <FRBRuri value="/akn/un/statement/deliberation/itu-pp/2018-11-15/dec-5"/>
+          <FRBRdate date="2018-11-15" name="adoption"/>
+          <FRBRauthor href="#itu-pp"/>
+          <FRBRcountry value="un"/>
+          <FRBRsubtype value="deliberation"/>
+          <FRBRnumber value="dec-5" showAs="DECISION 5 (REV. DUBAI, 2018)"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/itu-pp/2018-11-15/dec-5/eng@2018-11-15/!main"/>
+          <FRBRuri value="/akn/un/statement/deliberation/itu-pp/2018-11-15/dec-5/eng@2018-11-15"/>
+          <FRBRdate date="2018-11-15" name="adoption"/>
+          <FRBRauthor href="#itu-pp"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/itu-pp/2018-11-15/dec-5/eng@2018-11-15/.xml"/>
+          <FRBRuri value="/akn/un/statement/deliberation/itu-pp/2018-11-15/dec-5/eng@2018-11-15/.xml"/>
+          <FRBRdate date="2026-02-19" name="XMLMarkup"/>
+          <FRBRauthor href="#converter"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#converter">
+        <TLCOrganization eId="itu" href="/ontology/organizations/itu" showAs="International Telecommunication Union"/>
+        <TLCOrganization eId="itu-pp" href="/ontology/organizations/itu-pp" showAs="ITU Plenipotentiary Conference"/>
+      </references>
+    </meta>
+    <preface>
+      <longTitle eId="longTitle_1">
+        <p>
+          <docType>DECISION</docType>
+          <docNumber>5 (REV. DUBAI, 2018)</docNumber>
+        </p>
+      </longTitle>
+      <container name="title" eId="container_title">
+        <p>Revenue and expenses for the Union for the period 2020-2023</p>
+      </container>
+    </preface>
+    <preamble eId="preamble">
+      <formula name="enactingFormula" eId="formula_1">
+        <p>The Plenipotentiary Conference of the International Telecommunication Union (Dubai, 2018),</p>
+      </formula>
+      <recitals eId="recs_considering">
+        <intro>
+          <p>
+            <i>considering</i>
+          </p>
+        </intro>
+        <recital eId="rec_1">
+          <p>a) the strategic plan of the Union for 2020-2023, including goals, objectives and outputs of the Union, in compliance with Resolution 71 (Rev. Dubai, 2018) of this conference, and the priorities identified therein;</p>
+        </recital>
+        <recital eId="rec_2">
+          <num>b)</num>
+          <p>Resolution 91 (Rev. Guadalajara, 2010) of the Plenipotentiary Conference, on general principles for cost recovery,</p>
+        </recital>
+      </recitals>
+      <recitals eId="recs_considering_further">
+        <intro>
+          <p>
+            <i>considering further</i>
+          </p>
+        </intro>
+        <recital eId="rec_3">
+          <p>a) that, in the consideration of the draft financial plan of the Union for 2020- 2023, the challenge to use the Union's resources efficiently in order to achieve the goals and objectives in the strategic plan and increase revenues in support of programme demands is substantial;</p>
+        </recital>
+        <recital eId="rec_4">
+          <num>b)</num>
+          <p>the need to link strategic, financial and operational planning in ITU,</p>
+        </recital>
+      </recitals>
+      <recitals eId="recs_noting">
+        <intro>
+          <p>
+            <i>noting</i>
+          </p>
+        </intro>
+        <recital eId="rec_5">
+          <p>Resolution 151 (Rev. Dubai, 2018) of this conference, on improvement of the implementation of results-based management in ITU, an important component of which relates to planning, programming, budgeting, monitoring and evaluation, and the implementation of which should facilitate further strengthening of the management system of the Union, including financial management,</p>
+        </recital>
+      </recitals>
+      <recitals eId="recs_noting_further">
+        <intro>
+          <p>
+            <i>noting further</i>
+          </p>
+        </intro>
+        <recital eId="rec_6">
+          <p>that Resolution 48 (Rev. Dubai, 2018) of this conference stresses the importance of management and development of the human resources of the Union for the fulfilment of its goals, objectives and outputs,</p>
+        </recital>
+      </recitals>
+    </preamble>
+    <mainBody eId="body">
+      <hcontainer name="decides" eId="hcont_decides">
+        <heading>
+          <i>decides</i>
+        </heading>
+        <paragraph eId="para_unnumbered_1">
+          <content>
+            <p>1 that the ITU Council is authorized to draw up the two biennial budgets of the Union in such a way that the total expenses of the General Secretariat and the three Sectors of the Union are balanced by the anticipated revenue, on the basis of Annex 1 to this decision, taking into account the following: 1.1 that the amount of the contributory unit of Member States for the years 2020-2023 shall remain unchanged at CHF 318 000; 1.2 that expenses for interpretation, translation and text processing in respect of the official languages of the Union shall not exceed CHF 85 million for the years 2020-2023; 1.3 that, when adopting the biennial budgets of the Union, the Council may decide to give the Secretary-General the possibility, in order to meet unanticipated demand, to increase the budget for products or services which are subject to cost recovery, within the limit of the revenue from cost recovery for that activity; 1.4 that the Council shall each year review the revenue and expenses in the budget, the different activities and the related expenses, as well as key financial indicators relevant for the Union;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_2">
+          <num>2</num>
+          <content>
+            <p>that, if no plenipotentiary conference is held in 2022, the Council shall establish the biennial budgets of the Union for 2024-2025 and 2026-2027 and thereafter, having first obtained approval for the budgeted annual values of the contributory unit from a majority of the Member States of the Union;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_3">
+          <num>3</num>
+          <content>
+            <p>that the Council may authorize expenses exceeding the budget for conferences, meetings and seminars if such expenses can be compensated by savings from previous years or charged to the following year;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_4">
+          <num>4</num>
+          <content>
+            <p>that the Council shall, during each budgetary period, assess the changes that have taken place and the changes likely to take place in the current and coming budgetary periods under the following items:</p>
+          </content>
+          <list eId="para_4__list_1">
+            <point eId="para_4__point_4-1">
+              <num>4.1</num>
+              <content>
+                <p>salary scales, pension contributions and allowances, including post adjustments, established by the United Nations common system and applicable to the staff employed by the Union;</p>
+              </content>
+            </point>
+            <point eId="para_4__point_4-2">
+              <num>4.2</num>
+              <content>
+                <p>the exchange rate between the Swiss franc and the United States dollar insofar as this affects the staff costs for those staff members on United Nations scales;</p>
+              </content>
+            </point>
+            <point eId="para_4__point_4-3">
+              <num>4.3</num>
+              <content>
+                <p>the purchasing power of the Swiss franc in respect of non-staff items of expenses;</p>
+              </content>
+            </point>
+          </list>
+        </paragraph>
+        <paragraph eId="para_5">
+          <num>5</num>
+          <content>
+            <p>that the Council shall have the task of effecting every possible economy, in particular taking into account the measures for reducing expenses contained in Annex 2 to this decision, and considering the possible funding gaps, and, to this end, that it shall establish the lowest possible budgets commensurate with the needs of the Union, within the limits established by decides 1 above;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_6">
+          <num>6</num>
+          <content>
+            <p>that the following minimum guidelines should be applied in relation to any reductions in expenses:</p>
+          </content>
+          <list eId="para_6__list_1">
+            <point eId="para_6__point_a">
+              <num>a)</num>
+              <content>
+                <p>the internal audit function of the Union should continue to be maintained at a strong and effective level;</p>
+              </content>
+            </point>
+            <point eId="para_6__point_b">
+              <num>b)</num>
+              <content>
+                <p>there should be no reductions in expenses which would affect cost- recovery revenue;</p>
+              </content>
+            </point>
+            <point eId="para_6__point_c">
+              <num>c)</num>
+              <content>
+                <p>fixed costs related to the reimbursement of loans shall not be reduced;</p>
+              </content>
+            </point>
+            <point eId="para_6__point_d">
+              <num>d)</num>
+              <content>
+                <p>fixed costs related to after-service health insurance (ASHI) should be maintained at a level consistent with decisions taken by other organizations in the United Nations common system of salaries and benefits;</p>
+              </content>
+            </point>
+            <point eId="para_6__point_e">
+              <num>e)</num>
+              <content>
+                <p>expenses in regular maintenance costs for ITU buildings which would be required to ensure the security and health of staff should be optimized;</p>
+              </content>
+            </point>
+            <point eId="para_6__point_f">
+              <num>f)</num>
+              <content>
+                <p>the information services function in the Union should be maintained at an effective level;</p>
+              </content>
+            </point>
+          </list>
+        </paragraph>
+        <paragraph eId="para_7">
+          <num>7</num>
+          <content>
+            <p>that the Council shall aim in all circumstances to keep the Reserve Account at a level above 6 per cent of total annual expenses, instructs the Secretary-General, with the assistance of the Coordination Committee</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_1">
+          <num>1</num>
+          <content>
+            <p>to prepare draft balanced biennial budgets for the years 2020-2021, as well as 2022-2023, on the basis of the associated guidelines in decides above, the annexes to this decision and all relevant documents submitted to the Plenipotentiary Conference;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_2">
+          <num>2</num>
+          <content>
+            <p>to draw up and implement a programme of appropriate revenue increases, cost efficiencies and reductions across all ITU operations so as to ensure a balanced budget;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_3">
+          <num>3</num>
+          <content>
+            <p>to implement the aforementioned programme as soon as possible,</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer name="instructs_the_secretary_general" eId="hcont_instructs_the_secretary_general">
+        <heading>
+          <i>instructs the Secretary-General</i>
+        </heading>
+        <paragraph eId="para_unnumbered_11">
+          <content>
+            <p>1 to provide to the Council, no less than seven weeks before its 2019 and 2021 ordinary sessions, complete and accurate data as needed for the development, consideration and establishment of the biennial budget;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_2">
+          <num>2</num>
+          <content>
+            <p>to implement, monitor and propose improvements to the risk- management policy established in Resolution 71 (Rev. Dubai, 2018), comprising all elements of a systematic and comprehensive risk-management framework, and to report annually to the Council;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_3">
+          <num>3</num>
+          <content>
+            <p>to make every effort to achieve balanced biennial budgets, and to bring to the attention of the membership, through the Council Working Group on financial and human resources (CWG-FHR), any of its decisions that may have a financial impact likely to affect the achievement of such a balance, and to report annually to the Council, instructs the Secretary-General and the Directors of the Bureaux</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_1">
+          <num>1</num>
+          <content>
+            <p>to provide to the Council, on an annual basis, a report outlining expenses relating to each item in Annex 2 to this decision, and on ITU budget implementation for the previous year and anticipated implementation of the ITU budget for the current year;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_2">
+          <num>2</num>
+          <content>
+            <p>to make every effort to achieve reductions through a culture of efficiency and economy and to include the savings actually achieved within the overall approved budgets in the above report to the Council;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_3">
+          <num>3</num>
+          <content>
+            <p>to include in the above report to the Council a report on extrabudgetary activities and related expenses,</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer name="instructs_the_itu_council" eId="hcont_instructs_the_itu_council">
+        <heading>
+          <i>instructs the ITU Council</i>
+        </heading>
+        <paragraph eId="para_unnumbered_17">
+          <content>
+            <p>1 to authorize the Secretary-General, in accordance with Article 27 of the current Financial Regulations and Financial Rules, in the event that a surplus is achieved during the budget implementation, to prioritize allocating an appropriate amount to the ASHI Fund, with a view to keeping the ASHI Fund at a sustainable level;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_2">
+          <num>2</num>
+          <content>
+            <p>to authorize the Secretary-General, in the event that a surplus is achieved during the budget implementation, to allocate an appropriate amount to the New Building Project Fund to finance the costs that cannot legally be financed by the loan from the host country;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_3">
+          <num>3</num>
+          <content>
+            <p>to review and approve the balanced biennial budgets for 2020-2021 and 2022-2023, giving due consideration to the associated guidelines in decides above, the annexes to this decision and all relevant documents submitted to the Plenipotentiary Conference;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_4">
+          <num>4</num>
+          <content>
+            <p>to consider further appropriations in the event that additional sources of revenue are identified or savings achieved;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_5">
+          <num>5</num>
+          <content>
+            <p>to examine the cost-efficiency and cost-reduction programme drawn up by the Secretary-General;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_6">
+          <num>6</num>
+          <content>
+            <p>to take account of the impact of any cost-reduction programme on the staff of the Union, including the implementation of a voluntary separation and early retirement scheme, where this can be funded from budgetary surplus;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_7">
+          <num>7</num>
+          <content>
+            <p>in considering measures that could be adopted to strengthen control of the finances of the Union, to take into account the financial impact of such issues as ASHI funding and the medium- to long-term maintenance and/or replacement of buildings at the premises of the Union;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_8">
+          <num>8</num>
+          <content>
+            <p>to invite the external auditor, the Independent Management Advisory Committee and CWG-FHR to continue to develop recommendations to ensure greater financial control of the finances of the Union, taking into account, inter alia, the issues identified in instructs the ITU Council 7 above;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_9">
+          <num>9</num>
+          <content>
+            <p>to consider the reports relating to the matter, and report to the next plenipotentiary conference, as appropriate,</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer name="invites_the_itu_council" eId="hcont_invites_the_itu_council">
+        <heading>
+          <i>invites the ITU Council</i>
+        </heading>
+        <paragraph eId="para_unnumbered_26">
+          <content>
+            <p>to fix, to the extent practicable, the preliminary amount of the contributory unit for the period 2024-2027 at its 2021 ordinary session,</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer name="invites_member_states" eId="hcont_invites_member_states">
+        <heading>
+          <i>invites Member States</i>
+        </heading>
+        <paragraph eId="para_unnumbered_27">
+          <content>
+            <p>to announce their provisional class of contribution for the period 2024-2027 before the end of the calendar year 2021. ANNEX 1 TO DECISION 5 (REV. DUBAI, 2018) TABLE 1 Financial plan of the Union for 2020-2023: Revenue and expenses a b a+b Draft budget Draft budget Draft financial plan 2020-2021 2022-2023 2020-2023 Planned revenue A. Assessed contributions A.1 Member State contributions 218,586 218,586 437,172 A.2 Sector Member contributions 27,854 27,854 55,708 A.3 Associates 3,422 3,422 6,844 A.4 Academia 666 666 1,332 A Total assessed contributions 250,528 250,528 501,056 B Total cost recovery 75,750 75,750 151,500 C. Revenue from interest 600 600 1,200 D. Other revenue 200 200 400 E. Payment to/withdrawal from the Reserve Account</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_0">
+          <num>0</num>
+          <content>
+            <p>0</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_0">
+          <num>0</num>
+          <content>
+            <p>F. Savings from budget implementation 4,263 1,832 6,095 G. Funding gap</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_0">
+          <num>0</num>
+          <content>
+            <p>0</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_0">
+          <num>0</num>
+          <content>
+            <p>TOTAL REVENUE 331,341 328,910 660,251 Planned expenses General Secretariat 183,223 182,921 366,144 Radiocommunication Sector 59,884 63,247 123,131 Telecommunication Standardization Sector 27,964 26,996 54,960 Telecommunication Development Sector 60,270 55,746 116,016 Total expenses 331,341 328,910 660,251 Revenue less expenses</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_0">
+          <num>0</num>
+          <content>
+            <p>0</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_0">
+          <num>0</num>
+          <content>
+            <p>2020-2023 Planned revenue and expenses Amounts in thousands of Swiss francs TABLE 2 Goals Total 2020- 2021 Total 2022- 2023 Total 2020- 2023 GS ITU-R ITU-T ITU-D ITU GS ITU-R ITU-T ITU-D ITU ITU Goal 1: Growth 45,806 13,176 9,508 13,466 81,956 45,730 13,914 8,909 12,456 81,009 162,965 Goal 2: Inclusiveness 60,463 18,563 10,347 20,008 109,381 60,364 19,607 10,258 18,506 108,735 218,116 Goal 3: Sustainability 32,980 10,779 2,237 14,236 60,232 32,926 11,384 2,160 13,167 59,637 119,869 Goal 4: Innovation 23,819 11,378 3,915 3,992 43,104 23,780 12,017 3,779 3,692 43,268 86,372 Goal 5: Partnership 20,155 5,988 1,957 8,568 36,668 20,121 6,325 1,890 7,925 36,261 72,929 Total ITU 183,223 59,884 27,964 60,270 331,341 182,921 63,247 26,996 55,746 328,910 660,251 Draft financial plan 2020-2023 - Planned costs - KCHF Estimates 2020-2021 Estimates 2022-2023 ANNEX 2 TO DECISION 5 (REV. DUBAI, 2018) Measures for improving ITU's efficiency and reducing its expenses 1) Identification and elimination of all forms and instances of duplication of functions and activities between all ITU structural bodies and measures. Coordination, harmonization and closer cooperation among the Sectors, including optimization of management methods, logistics, coordination and support by the secretariat as well as centralization of finance and administrative tasks. 2) Coordination and harmonization of all seminars, workshops and cross- sector activities by the secretariat's Inter-Sectoral Coordination Task Force (ISC-TF) in order to avoid duplication of topics, to optimize management, logistics, coordination and secretariat support and to benefit from synergy between the Sectors and a holistic approach to the subjects covered. 3) Enhanced efficiency in respect of regional offices in implementing the goals and objectives of ITU as a whole, as well as in the use of local experts and local networks of contacts and resources. Maximum coordination of activities with regional organizations and rational use of existing financial and human resources, including savings on travel costs and costs associated with the planning and organization of events held outside Geneva. 4) Savings from attrition, redeployment of staff and review and possible reduction of grades of vacant posts, in particular in non-sensitive parts of the General Secretariat and the three Bureaux, in order to reach optimal levels of productivity, efficiency and effectiveness. 5) Prioritizing staff redeployment for the implementation of new or additional activities. New hiring should be the last option, while taking into account gender balance, geographical distribution and new skill requirements. 6) The use of consultants should only occur when the relevant skills or experience cannot be found among existing staff and after confirmation of this requirement in writing by senior management. 7) Upgrading the capacity-building policy to qualify the staff, including staff in regional offices, for multi-sector proficiency, in order to improve staff mobility and their flexibility for redeployment to new or additional activities. 8) Reduction by the General Secretariat and the three Sectors of the Union of the cost of documentation by, among other measures, conducting paperless conferences and meetings of all kinds and at all levels; encouraging staff to avoid printing of e-mails and documents; reducing the archiving of additional paper documentation; pursuing initiatives aimed at making ITU a fully paperless organization; and fostering the adoption of innovative information and communication technology (ICT) solutions as viable and sustainable substitutes for paper, without any significant decrease in the quality of the information provided to event participants or to ITU staff in the course of their day-to-day work. 9) Reducing to the absolute minimum necessary the printing and distribution of ITU promotional/non-revenue generating publications. 10) Implementation of practicable measures for making savings in the provision of interpretation and the translation of ITU documents, including minimizing the length of documents, and in the preparation of publications for events of all kinds and at all levels, without prejudice to the goals of Resolution 154 (Rev. Dubai, 2018) of the Plenipotentiary Conference, as well as through optimization of resource usage in the language services, including the use of alternative translation procedures, while maintaining translation quality and the accuracy of telecommunication/ICT terminology. 11) Increasing the efficiency of World Summit on the Information Society (WSIS) programme activities and activities aimed at achievement of the Sustainable Development Goals, consistent with the financial plan and the biennial budget and, as appropriate, through cost recovery and voluntary contributions. Participation by the regional offices, in collaboration with other United Nations agencies, in WSIS activities being carried out at the regional level. 12) Optimization of the number and duration of meetings, and holding such meetings with the aid of ICT capabilities. Reduction of the number of groups to the minimum necessary through their restructuring and/or termination of their work in the absence of any outcomes and/or where there is duplication of activities, while avoiding any risk, in particular, of failure to fulfil the strategic and operational goals and objectives of the Union. 13) Regular assessment of the level of achievement of the strategic goals, objectives and outputs with a view to increasing efficiency through budget reallocation, when necessary. 14) For new activities or those having additional financial resource implications, a "value-added" assessment shall be made and implemented in order to improve efficiency and to avoid overlap and duplication. 15) Sound consideration of the size of, location of and resources allocated to regional initiatives, outputs and assistance to members, the regional presence both in the regions and at headquarters, as well as those actions resulting from the outcome of the World Telecommunication Development Conference and the Buenos Aires Action Plan, and financed directly as activities from the Sector budget. 16) Reduction of the cost of travel on duty, by developing and implementing criteria in order to reduce travel costs. The criteria should consider and aim at minimizing business travel, as far as possible, by prioritizing the allocation of staff from the regional and area offices, by limiting time on mission, through joint representation in meetings, and by rationalizing the number of staff sent on mission from various departments/divisions of the General Secretariat and the three Bureaux. 17) Appeals to Member States to reduce to the minimum necessary the number of issues raised and the time devoted to their consideration at all conferences, assemblies and other meetings. 18) Continued implementation by the Union of the comprehensive plan to improve the stability and predictability of the financial base of the Union, mobilizing the necessary resources and, inter alia, improving the management of internal corporate projects requiring significant long-term investments. 19) Member States, Sector Members and other ITU members taking all possible measures to settle/eliminate arrears to the Union. 20) Optimization of expenses related to maintenance, routine repair and renovation/reconstruction of the ITU buildings and facilities and to the provision of safety in accordance with applicable United Nations system standards. 21) Increased use of virtual meetings and remote participation in physical meetings in order to reduce and/or eliminate travel to meetings the proceedings of which are webcast and, preferably, captioned, including remote presentation of documents and contributions. 22) Introduction of innovative cross-cutting means and working methods for improving the Union's productivity. 23) Discontinuing to the greatest extent possible communications by fax and traditional postal mail between the Union and Member States, and replacing them with modern electronic communication methods. 24) Continuing the efforts to simplify, harmonize or eliminate, as appropriate, internal administrative processes, for subsequent digitization and automation. 25) Consideration of further sharing of some common services with other United Nations organizations, and implementation of such sharing where beneficial. 26) Appeals to Member States, to the extent possible, with the support of the secretariat, to include in their proposals to ITU conferences an annex with relevant information in order to allow the Secretary-General/Directors of the Bureaux to identify the probable financial implications of such proposals. 27) Any additional measures adopted by the Council and the ITU management, including measures to increase the efficiency of the internal audit function, institutionalize evaluation functions, assess and minimize the risk of fraud and other risks, implement external auditor, Independent Management Advisory Committee and Joint Inspection Unit recommendations in a timely manner, and implement the information technology and information management strategy.</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+    </mainBody>
+  </statement>
+</akomaNtoso>

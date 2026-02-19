@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <statement name="resolution" xml:lang="en">
+    <meta>
+      <identification source="#itu">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/itu-pp/2018-11-15/res-2/!main"/>
+          <FRBRuri value="/akn/un/statement/deliberation/itu-pp/2018-11-15/res-2"/>
+          <FRBRdate date="2018-11-15" name="adoption"/>
+          <FRBRauthor href="#itu-pp"/>
+          <FRBRcountry value="un"/>
+          <FRBRsubtype value="deliberation"/>
+          <FRBRnumber value="res-2" showAs="RESOLUTION 2 (REV. DUBAI, 2018)"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/itu-pp/2018-11-15/res-2/eng@2018-11-15/!main"/>
+          <FRBRuri value="/akn/un/statement/deliberation/itu-pp/2018-11-15/res-2/eng@2018-11-15"/>
+          <FRBRdate date="2018-11-15" name="adoption"/>
+          <FRBRauthor href="#itu-pp"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/itu-pp/2018-11-15/res-2/eng@2018-11-15/.xml"/>
+          <FRBRuri value="/akn/un/statement/deliberation/itu-pp/2018-11-15/res-2/eng@2018-11-15/.xml"/>
+          <FRBRdate date="2026-02-19" name="XMLMarkup"/>
+          <FRBRauthor href="#converter"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#converter">
+        <TLCOrganization eId="itu" href="/ontology/organizations/itu" showAs="International Telecommunication Union"/>
+        <TLCOrganization eId="itu-pp" href="/ontology/organizations/itu-pp" showAs="ITU Plenipotentiary Conference"/>
+      </references>
+    </meta>
+    <preface>
+      <longTitle eId="longTitle_1">
+        <p>
+          <docType>RESOLUTION</docType>
+          <docNumber>2 (REV. DUBAI, 2018)</docNumber>
+        </p>
+      </longTitle>
+      <container name="title" eId="container_title">
+        <p>World telecommunication/information and communication technology policy forum</p>
+      </container>
+    </preface>
+    <preamble eId="preamble">
+      <formula name="enactingFormula" eId="formula_1">
+        <p>The Plenipotentiary Conference of the International Telecommunication Union (Dubai, 2018),</p>
+      </formula>
+      <recitals eId="recs_considering">
+        <intro>
+          <p>
+            <i>considering</i>
+          </p>
+        </intro>
+        <recital eId="rec_1">
+          <p>a) relevant resolutions of the United Nations General Assembly (UNGA);</p>
+        </recital>
+        <recital eId="rec_2">
+          <num>b)</num>
+          <p>the WSIS+10 statement on the implementation of World Summit on the Information Society (WSIS) outcomes and vision for WSIS beyond 2015, which were adopted at the ITU coordinated WSIS+10 High-Level Event (Geneva, 2014), based on the Multistakeholder Preparatory Platform (MPP) process, together with other United Nations agencies and inclusive of all WSIS Stakeholders, were endorsed by the Plenipotentiary Conference (Busan, 2014) and were submitted to the UNGA overall review;</p>
+        </recital>
+        <recital eId="rec_3">
+          <num>c)</num>
+          <p>Resolution 77 (Rev. Dubai, 2018) of this conference;</p>
+        </recital>
+        <recital eId="rec_4">
+          <num>d)</num>
+          <p>that the telecommunication environment has undergone considerable changes under the combined influence of advances in technology, the globalization of markets and growing user demand for integrated cross-border services increasingly adapted to their needs;</p>
+        </recital>
+        <recital eId="rec_5">
+          <num>e)</num>
+          <p>that restructuring of the telecommunication sector, especially the separation of regulatory and operating functions, the liberalization of services and the continuing appearance of new regulatory players, is possible in the majority of ITU Member States;</p>
+        </recital>
+        <recital eId="rec_6">
+          <num>f)</num>
+          <p>that new and rapidly developing and emerging telecommunication/information and communication technologies (ICTs) and services hold incredible promise for the advancement of human welfare;</p>
+        </recital>
+        <recital eId="rec_7">
+          <num>g)</num>
+          <p>that there remains a pressing need for a global framework to exchange information on telecommunication and ICT strategies and policies;</p>
+        </recital>
+        <recital eId="rec_8">
+          <num>h)</num>
+          <p>that national telecommunication/ICT policies and regulations have to be recognized and understood, so as to allow the development of global markets which can support the harmonious development of telecommunication services;</p>
+        </recital>
+        <recital eId="rec_9">
+          <num>i)</num>
+          <p>the important contributions provided by Member States and Sector Members to previous world telecommunication/ICT policy forums (WTPF), and the results achieved by those forums,</p>
+        </recital>
+      </recitals>
+      <recitals eId="recs_conscious">
+        <intro>
+          <p>
+            <i>conscious</i>
+          </p>
+        </intro>
+        <recital eId="rec_10">
+          <p>a) that the purposes of the Union are, inter alia, to promote, at international level, the adoption of a broader approach to the issues of telecommunications/ICTs in the global information economy and society, to promote the extension of the benefits of the new telecommunication technologies to all the world's inhabitants and to harmonize the actions of Member States and Sector Members in the attainment of those ends (cf. the WSIS outcomes);</p>
+        </recital>
+        <recital eId="rec_11">
+          <num>b)</num>
+          <p>that ITU remains uniquely positioned and is the single forum for the coordination of, exchange of information on, discussion of and harmonization of national, regional and international telecommunication/ICT strategies and policies;</p>
+        </recital>
+        <recital eId="rec_12">
+          <num>c)</num>
+          <p>that WTPF, which was established by the Plenipotentiary Conference (Kyoto, 1994) and successfully convened in 1996, 1998, 2001, 2009 and 2013, has provided a venue for discussion of global and cross-sectoral issues by high- level participants, thus contributing to the advance of world telecommunications, as well as to the establishment of procedures for the conduct of the forum itself;</p>
+        </recital>
+        <recital eId="rec_13">
+          <num>d)</num>
+          <p>that WTPF-13 held in Geneva, Switzerland, was a successful edition of these forums, attended by 126 ITU Member States and no fewer than 900 delegates,</p>
+        </recital>
+      </recitals>
+      <recitals eId="recs_emphasizing">
+        <intro>
+          <p>
+            <i>emphasizing</i>
+          </p>
+        </intro>
+        <recital eId="rec_14">
+          <p>a) that Member States and Sector Members, realizing the need for constant review of their own telecommunication/ICT policies and legislation, and for coordination in the rapidly changing telecommunication/ICT environment, adopted WTPF as a mechanism for discussing strategies and policies;</p>
+        </recital>
+        <recital eId="rec_15">
+          <num>b)</num>
+          <p>that it is necessary for the Union, as an international organization playing a leading and unique role in the field of telecommunications/ICTs, to continue organizing WTPF to facilitate the exchange of information by high-level participants on telecommunication/ICT policies;</p>
+        </recital>
+        <recital eId="rec_16">
+          <num>c)</num>
+          <p>that the purpose of WTPF is to provide a venue for exchanging views and information and thereby creating a shared vision among policy-makers worldwide on the issues arising from the emergence of new telecommunication/ICT services and technologies, and to consider any other policy issue in telecommunications/ICTs which would benefit from a global exchange of views, in addition to the adoption of opinions reflecting common viewpoints;</p>
+        </recital>
+        <recital eId="rec_17">
+          <num>d)</num>
+          <p>that WTPF should continue to give special attention to the interests and needs of the developing countries1, where modern technologies and services can contribute significantly to telecommunication infrastructure development;</p>
+        </recital>
+        <recital eId="rec_18">
+          <num>e)</num>
+          <p>the continuing need for allowing adequate preparation time for WTPF;</p>
+        </recital>
+        <recital eId="rec_19">
+          <num>f)</num>
+          <p>the importance of regional preparation and consultation prior to convening WTPF;</p>
+        </recital>
+        <recital eId="rec_20">
+          <num>g)</num>
+          <p>that the discussion of issues relating to emerging telecommunication/ICT services and technologies benefits from the participation of all interested stakeholders, in their respective roles,</p>
+        </recital>
+      </recitals>
+    </preamble>
+    <mainBody eId="body">
+      <hcontainer name="resolves" eId="hcont_resolves">
+        <heading>
+          <i>resolves</i>
+        </heading>
+        <paragraph eId="para_unnumbered_1">
+          <content>
+            <p>1 to hold WTPF preferably back to back with the WSIS Forum 2021, taking account of the need to ensure adequate preparation by Member States; ____________________ 1 These include the least developed countries, small island developing states, landlocked developing countries and countries with economies in transition.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_2">
+          <num>2</num>
+          <content>
+            <p>that WTPF, as established by Resolution 2 (Kyoto, 1994) of the Plenipotentiary Conference, shall be maintained, in order to continue discussing and exchanging views and information on telecommunication/ICT policy and regulatory matters, especially on global and cross-sectoral issues;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_3">
+          <num>3</num>
+          <content>
+            <p>that WTPF shall not produce prescriptive regulatory outcomes; however, it shall prepare reports and adopt opinions by consensus for consideration by Member States, Sector Members and relevant ITU meetings;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_4">
+          <num>4</num>
+          <content>
+            <p>that WTPF shall be open to all Member States and Sector Members; however, if appropriate, by decision of a majority of the representatives of Member States, a special session may be held for Member States only;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_5">
+          <num>5</num>
+          <content>
+            <p>that WTPF shall be convened on an ad hoc basis to respond quickly to emerging policy issues arising from the changing telecommunication/ICT environment, taking into account the past practices followed and experience acquired by ITU in the holding of previous WTPFs;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_6">
+          <num>6</num>
+          <content>
+            <p>that WTPF should be convened within existing budgetary resources and, as far as possible, in conjunction with one of the meetings or forums of the Union in order to minimize the impact on the budget of the Union;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_7">
+          <num>7</num>
+          <content>
+            <p>that the ITU Council shall continue to decide on the duration and the date, allowing ample time for preparations, and on the venue, the agenda and the themes of WTPF;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_8">
+          <num>8</num>
+          <content>
+            <p>that the agenda and themes shall continue to be based on a report by the Secretary-General, including input from any conference, assembly or meeting of the Union, and on contributions from Member States and Sector Members, taking into account the past practices followed and experience acquired by ITU, including in respect of the preparatory process, in the holding of previous WTPFs;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_9">
+          <num>9</num>
+          <content>
+            <p>that, in order to ensure that they are well focused, discussions at WTPF shall be based solely on a single report by the Secretary-General, and contributions from participants based on that report, prepared in accordance with a procedure adopted by the Council and based on the proposals of Member States and Sector Members, and on the views of Associates, Academia and stakeholders, and WTPF shall not consider drafts of any new Opinions that were not presented during the preparatory period foreseen for drawing up the Secretary-General's report prior to the forum; 10 that broad participation in WTPF and operational efficiency during the forum shall be facilitated,</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer name="instructs_the_secretary_general" eId="hcont_instructs_the_secretary_general">
+        <heading>
+          <i>instructs the Secretary-General</i>
+        </heading>
+        <paragraph eId="para_unnumbered_10">
+          <content>
+            <p>to make the necessary preparations for convening WTPF based on resolves above,</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer name="instructs_the_itu_council" eId="hcont_instructs_the_itu_council">
+        <heading>
+          <i>instructs the ITU Council</i>
+        </heading>
+        <paragraph eId="para_unnumbered_11">
+          <content>
+            <p>1 to continue to decide on the duration, date, venue, agenda and themes of any future WTPF;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_2">
+          <num>2</num>
+          <content>
+            <p>to adopt a procedure for preparation of the report by the Secretary- General referred to in resolves 8 above;</p>
+          </content>
+        </paragraph>
+        <paragraph eId="para_3">
+          <num>3</num>
+          <content>
+            <p>that the procedure referred to in instructs the ITU Council 2 should include, as appropriate, participation open to all Member States and Sector Members, and online public consultations open to all interested stakeholders, taking into account the past practices followed and experience acquired by ITU, including in respect of the preparatory process, in the holding of previous WTPFs;</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer name="further_instructs_the_itu_council" eId="hcont_further_instructs_the_itu_council">
+        <heading>
+          <i>further instructs the ITU Council</i>
+        </heading>
+        <paragraph eId="para_unnumbered_14">
+          <content>
+            <p>to submit to the next plenipotentiary conference a report on WTPF for any necessary action.</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+    </mainBody>
+  </statement>
+</akomaNtoso>
