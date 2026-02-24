@@ -143,6 +143,36 @@ Written: individual/rec_7.xml
 Conversion complete!
 ```
 
+### Preview XML output in a browser
+
+Use the helper script to generate readable HTML previews from AKN XML files.
+
+#### 1) Preview the example document files in this repository
+
+```bash
+# From the akn4itu folder
+python akn_preview.py --input-file dec_5.xml --output-dir preview_html --open
+```
+
+You can run the same command with `res_2.xml` (or any other AKN XML file) to render additional pages.
+
+#### 2) Preview the full PP-18 converted collection
+
+```bash
+# From the akn4itu folder
+python akn_preview.py --input-file pp18_final_acts_akn.xml --output-dir preview_html_pp18 --open
+```
+
+This generates:
+- `preview_html_pp18/pp18_final_acts_akn.html` (single-page viewer with table of contents for all embedded documents)
+- `preview_html_pp18/index.html` (entry page linking to the collection preview)
+
+#### How people should refer to the converted document
+
+- For the **full conference corpus**, share/open `preview_html_pp18/pp18_final_acts_akn.html`.
+- For **individual documents**, share/open files in `preview_html/` (or start at `preview_html/index.html`).
+- If the XML changes, rerun the same command to refresh the HTML viewer pages.
+
 ---
 
 ## Output Structure
